@@ -1,6 +1,7 @@
 /*@import url(fontawesome-all.min.css);*/
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -124,7 +125,9 @@ body, input, select, textarea {
     /*font-weight: normal;*/
     line-height: 1.75;
 
-    font-family: "Rubik", sans-serif;
+    /*font-family: "Rubik", sans-serif;*/
+    /*font-family: "Moderustic", sans-serif;*/
+    font-family: "Space Mono", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -3468,10 +3471,10 @@ body.is-preload .wrapper.fade > .inner {
 
 @media screen and (max-width: 1280px) {
 
-    #sidebar + #wrapper {
-        margin-left: 0;
-        padding-top: 3.5em;
-    }
+    /*#sidebar + #wrapper {*/
+    /*    margin-left: 0;*/
+    /*    padding-top: 3.5em;*/
+    /*}*/
 
 }
 
@@ -3798,67 +3801,67 @@ body.is-preload #sidebar nav ul li {
     opacity: 0;
 }
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {*/
 
-    #sidebar {
-        height: 3.5em;
-        left: 0;
-        line-height: 3.5em;
-        overflow: hidden;
-        padding: 0;
-        text-align: center;
-        top: 0;
-        width: 100%;
-    }
+/*    #sidebar {*/
+/*        height: 3.5em;*/
+/*        left: 0;*/
+/*        line-height: 3.5em;*/
+/*        overflow: hidden;*/
+/*        padding: 0;*/
+/*        text-align: center;*/
+/*        top: 0;*/
+/*        width: 100%;*/
+/*    }*/
 
-    #sidebar > .inner {
-        -moz-flex-direction: row;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -moz-align-items: -moz-stretch;
-        -webkit-align-items: -webkit-stretch;
-        -ms-align-items: -ms-stretch;
-        align-items: stretch;
-        height: inherit;
-        line-height: inherit;
-    }
+/*    #sidebar > .inner {*/
+/*        -moz-flex-direction: row;*/
+/*        -webkit-flex-direction: row;*/
+/*        -ms-flex-direction: row;*/
+/*        flex-direction: row;*/
+/*        -moz-align-items: -moz-stretch;*/
+/*        -webkit-align-items: -webkit-stretch;*/
+/*        -ms-align-items: -ms-stretch;*/
+/*        align-items: stretch;*/
+/*        height: inherit;*/
+/*        line-height: inherit;*/
+/*    }*/
 
-    #sidebar nav {
-        height: inherit;
-        line-height: inherit;
-    }
+/*    #sidebar nav {*/
+/*        height: inherit;*/
+/*        line-height: inherit;*/
+/*    }*/
 
-    #sidebar nav ul {
-        display: -moz-flex;
-        display: -webkit-flex;
-        display: -ms-flex;
-        display: flex;
-        height: inherit;
-        line-height: inherit;
-        margin: 0;
-    }
+/*    #sidebar nav ul {*/
+/*        display: -moz-flex;*/
+/*        display: -webkit-flex;*/
+/*        display: -ms-flex;*/
+/*        display: flex;*/
+/*        height: inherit;*/
+/*        line-height: inherit;*/
+/*        margin: 0;*/
+/*    }*/
 
-    #sidebar nav ul li {
-        display: block;
-        height: inherit;
-        line-height: inherit;
-        margin: 0 0 0 2em;
-        padding: 0;
-    }
+/*    #sidebar nav ul li {*/
+/*        display: block;*/
+/*        height: inherit;*/
+/*        line-height: inherit;*/
+/*        margin: 0 0 0 2em;*/
+/*        padding: 0;*/
+/*    }*/
 
-    #sidebar nav a {
-        height: inherit;
-        line-height: inherit;
-        padding: 0;
-    }
+/*    #sidebar nav a {*/
+/*        height: inherit;*/
+/*        line-height: inherit;*/
+/*        padding: 0;*/
+/*    }*/
 
-    #sidebar nav a:after {
-        background-image: none;
-        background-color: #b74e91;
-    }
+/*    #sidebar nav a:after {*/
+/*        background-image: none;*/
+/*        background-color: #b74e91;*/
+/*    }*/
 
-}
+/*}*/
 
 @media screen and (max-width: 736px) {
 
@@ -3879,7 +3882,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 #intro p {
-    font-size: 1.25em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -3916,9 +3919,19 @@ section {
     flex-direction: column;
     align-items: center;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(2px);
+    /*backdrop-filter: blur(2px);*/
     padding: 0;
     color: white;
+}
+
+.inner h1 {
+    backdrop-filter: blur(1px);
+}
+
+.inner p {
+    margin: 0;
+    padding: 20px;
+    backdrop-filter: blur(2px);
 }
 
 .overlay {
